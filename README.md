@@ -18,9 +18,9 @@
 4. **Run the Program:**
     ```sh
    java -cp out Main your_input_txt_file_here.txt desired_output_file_name_here.txt
-
+    ```
 You can also find some example usage of this program w. test*.txt's and output*.txt's.
-   ```
+   
 
 
 ## Known Bugs and Limitations
