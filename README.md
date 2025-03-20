@@ -1,5 +1,6 @@
 # Graph MST Optimizer
 
+A graph-based project focusing on constructing Minimum Spanning Trees (MST) and updating them when new edges are added. It ensures the MST structure is maintained dynamically, optimizing performance for incremental updates.
 
 ## How to Compile and Run the Program
 
