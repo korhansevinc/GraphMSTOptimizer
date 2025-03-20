@@ -6,7 +6,7 @@ a
 . . f
 . . . e
 . . . g
-Directive-----------------> insert-edge a f 12
+Directive-----------------> insert-edge a f 12 
 Directive-----------------> print-mst a
 a
 . b

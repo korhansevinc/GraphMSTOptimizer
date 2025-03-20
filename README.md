@@ -13,12 +13,15 @@
     ```
 3. **Compile all Java files:**
     ```sh
-    javac -d out Main.java utils/IOUtilities.java data_structures/*.java tests/*.java
+    javac -d out Main.java utils/*.java data_structures/*.java tests/*.java
     ```
 4. **Run the Program:**
     ```sh
    java -cp out Main your_input_txt_file_here.txt desired_output_file_name_here.txt
+
+You can also find some example usage of this program w. test*.txt's and output*.txt's.
    ```
+
 
 ## Known Bugs and Limitations
 - The program assumes that the user provides two valid .txt filenames. If the files are incorrect or missing, the program may not work as expected.
