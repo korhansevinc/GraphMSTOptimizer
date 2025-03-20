@@ -1,0 +1,5 @@
+Directive-----------------> print-mst a
+a
+. b
+. . d
+. c

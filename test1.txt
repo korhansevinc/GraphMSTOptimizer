@@ -1,0 +1,13 @@
+4
+a
+b
+c
+d
+5
+a b 5
+a c 2
+b c 8
+b d 1
+c d 6
+print-mst a
+quit

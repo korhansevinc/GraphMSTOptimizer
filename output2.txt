@@ -1,0 +1,30 @@
+Directive-----------------> print-mst a
+a
+. b
+. c
+. . d
+. . f
+. . . e
+. . . g
+Directive-----------------> print-mst f
+f
+. c
+. . a
+. . . b
+. . d
+. e
+. g
+Directive-----------------> path f b
+f, c, a, b
+Directive-----------------> path f f
+f
+Directive-----------------> path a g
+a, c, f, g
+Directive-----------------> print-mst b
+b
+. a
+. . c
+. . . d
+. . . f
+. . . . e
+. . . . g

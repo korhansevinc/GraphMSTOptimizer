@@ -1,0 +1,78 @@
+Directive-----------------> print-mst a
+a
+. b
+. c
+. . d
+. . f
+. . . e
+. . . g
+Directive-----------------> insert-edge a f 12
+Directive-----------------> print-mst a
+a
+. b
+. c
+. . d
+. . f
+. . . e
+. . . g
+Directive-----------------> insert-edge b g 1.5
+Directive-----------------> print-mst a
+a
+. b
+. . g
+. . . f
+. . . . c
+. . . . . d
+. . . . e
+Directive-----------------> path a e
+a, b, g, f, e
+Directive-----------------> decrease-weight a f 11.5
+Directive-----------------> print-mst a
+a
+. f
+. . c
+. . . d
+. . e
+. . g
+. . . b
+Directive-----------------> decrease-weight b c 5.5
+Directive-----------------> print-mst a
+a
+. f
+. . c
+. . . d
+. . e
+. . g
+. . . b
+Directive-----------------> decrease-weight b e 7
+Directive-----------------> print-mst a
+a
+. f
+. . c
+. . . d
+. . g
+. . . b
+. . . . e
+Directive-----------------> insert-edge b c 1
+Invalid Operation
+Directive-----------------> decrease-weight c g 4
+Invalid Operation
+Directive-----------------> print-mst a
+a
+. f
+. . c
+. . . d
+. . g
+. . . b
+. . . . e
+Directive-----------------> insert-edge a e 1.5
+Directive-----------------> print-mst a
+a
+. e
+. f
+. . c
+. . . d
+. . g
+. . . b
+Directive-----------------> path e b
+e, a, f, g, b

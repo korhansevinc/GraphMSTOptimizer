@@ -1,0 +1,40 @@
+7
+a
+b
+c
+d
+e
+f
+g
+12
+a b 4.0
+a c 8.0
+b c 9.0
+b d 8.5
+b e 10.0
+c d 2.0
+c f 1.0
+d e 7.0
+d f 9.0
+e f 5.0
+e g 6.0
+f g 2.5
+print-mst a
+insert-edge a f 12 
+print-mst a
+insert-edge b g 1.5
+print-mst a
+path a e
+decrease-weight a f 11.5
+print-mst a
+decrease-weight b c 5.5
+print-mst a
+decrease-weight b e 7
+print-mst a
+insert-edge b c 1
+decrease-weight c g 4
+print-mst a
+insert-edge a e 1.5
+print-mst a
+path e b
+quit

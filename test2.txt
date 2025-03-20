@@ -1,0 +1,28 @@
+7
+a
+b
+c
+d
+e
+f
+g
+12
+a b 4.0
+a c 8.0
+b c 9.0
+b d 8.5
+b e 10.0
+c d 2.0
+c f 1.0
+d e 7.0
+d f 9.0
+e f 5.0
+e g 6.0
+f g 2.5
+print-mst a
+print-mst f
+path f b
+path f f
+path a g
+print-mst b
+quit

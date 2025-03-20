@@ -1,0 +1,42 @@
+11
+v0
+v1
+v2
+v3
+v4
+v5
+v6
+v7
+v8
+v9
+v10
+17
+v0 v6 1
+v0 v7 2
+v0 v8 9
+v1 v2 1.75
+v1 v5 5
+v1 v7 0.5
+v1 v8 4.75
+v2 v3 2.75
+v2 v5 0.75 
+v3 v4 6
+v3 v5 8.5
+v4 v5 3.75
+v5 v6 3
+v6 v7 8
+v7 v8 4
+v9 v10 5
+v1 v9 16
+print-mst v0
+print-mst v10
+insert-edge v9 v3 0.25
+insert-edge v10 v4 0.8
+insert-edge v10 v7 15
+print-mst v10
+decrease-weight v0 v8 8.9
+decrease-weight v10 v7 14.1
+print-mst v10
+decrease-weight v7 v1 0.1
+print-mst v10
+quit
