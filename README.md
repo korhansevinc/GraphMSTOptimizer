@@ -21,7 +21,9 @@
     ```
 
 - You can also find some example usage of this program w. test*.txt's and output*.txt's.
-   
+```sh 
+    java -cp out Main test1.txt output1.txt
+```   
 
 
 ## Known Bugs and Limitations
